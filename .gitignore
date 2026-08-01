@@ -1,0 +1,12 @@
+.DS_Store
+
+# Update archives and deltas live as GitHub Release assets under the
+# permanent `updates` tag, not in git — they're large and immutable.
+# Recover a lost working copy with:
+#   gh release download updates -R mitchellhart/livemanager-releases -D updates/
+updates/*.zip
+updates/*.delta
+updates/old_updates/
+
+# Release notes (updates/*.html) are NOT ignored — they're the changelog
+# and are embedded into the appcast.
