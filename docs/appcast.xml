@@ -3,6 +3,23 @@
     <channel>
         <title>LiveManager</title>
         <item>
+            <title>1.3</title>
+            <pubDate>Sat, 01 Aug 2026 16:07:15 -0700</pubDate>
+            <sparkle:version>2608011606</sparkle:version>
+            <sparkle:shortVersionString>1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>LiveManager 1.3</h2>
+
+<ul>
+  <li>The welcome screen now shows which version you're running.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager-1.3.zip" length="4375610" type="application/octet-stream" sparkle:edSignature="jfddC+74r1x1Brm9Piv5U+WuWpcSh/5azDdRUkFFoOE9BnVxMQ3Pk/4mKcLzy16E+IjI5LAA4CAUD0Iq3L3zDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager2608011606-2608011601.delta" sparkle:deltaFrom="2608011601" length="94862" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="V33xRDA+WtSDaqWCsz/oYNNHNixTf8f96sgnHbG/qqv2pR6nyicqaNB1Uaw7NhD8WoEMHATREoiAi/0HcsgfCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2</title>
             <pubDate>Sat, 01 Aug 2026 16:02:50 -0700</pubDate>
             <sparkle:version>2608011601</sparkle:version>
