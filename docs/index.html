@@ -4,42 +4,150 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LiveManager for macOS</title>
+<meta name="description" content="Browse, rate and audition your Ableton Live project library on the Mac, with an iPhone companion for listening on the go.">
+
+<!--
+  Standalone download page for LiveManager. No external assets, no build
+  step, no server-side anything — drop this single file anywhere that
+  serves HTTPS.
+
+  It never goes stale: the download button points at a fixed "latest" URL
+  that each release overwrites, and the version line is filled in at page
+  load from the Sparkle appcast. If that fetch fails the page still works,
+  it just doesn't name a version.
+
+  Two URLs below are the only things to change if hosting moves.
+-->
 <style>
-  :root { color-scheme: light dark; }
+  :root {
+    color-scheme: light dark;
+    --fg: #16161a;
+    --muted: #6b6b76;
+    --accent: #0a84ff;
+    --hairline: rgba(128,128,140,.22);
+    --card: rgba(128,128,140,.07);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --fg: #f2f2f7; --muted: #9b9ba6; --accent: #4aa3ff; }
+  }
+  * { box-sizing: border-box; }
   body {
-    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    max-width: 34rem; margin: 0 auto; padding: 4rem 1.5rem;
+    margin: 0;
+    padding: clamp(2rem, 8vw, 5rem) 1.25rem 4rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, sans-serif;
+    color: var(--fg);
+    -webkit-font-smoothing: antialiased;
   }
-  h1 { font-size: 2rem; margin-bottom: .25rem; }
-  .tagline { color: color-mix(in srgb, currentColor 60%, transparent); margin-top: 0; }
+  .wrap { max-width: 34rem; margin: 0 auto; }
+  h1 { font-size: clamp(2rem, 6vw, 2.6rem); line-height: 1.1; margin: 0 0 .4rem; letter-spacing: -.02em; }
+  .tagline { color: var(--muted); font-size: 1.05rem; margin: 0 0 2rem; }
+  h2 { font-size: 1.05rem; margin: 2.5rem 0 .6rem; letter-spacing: -.01em; }
+
+  .get { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; }
   .download {
-    display: inline-block; margin: 1.5rem 0 .5rem;
-    padding: .7rem 1.4rem; border-radius: 10px;
-    background: #0a84ff; color: #fff; text-decoration: none; font-weight: 600;
+    display: inline-block; padding: .8rem 1.6rem;
+    background: var(--accent); color: #fff; text-decoration: none;
+    border-radius: 11px; font-weight: 600; font-size: 1.02rem;
   }
-  .meta { font-size: .875rem; color: color-mix(in srgb, currentColor 60%, transparent); }
-  ul { padding-left: 1.2rem; }
-  footer { margin-top: 3rem; font-size: .875rem; }
+  .download:hover { filter: brightness(1.08); }
+  .release { color: var(--muted); font-size: .9rem; }
+
+  .requirements { color: var(--muted); font-size: .9rem; margin: .9rem 0 0; }
+
+  ol, ul { padding-left: 1.15rem; margin: .5rem 0; }
+  li { margin: .35rem 0; }
+  li strong { font-weight: 600; }
+
+  .note {
+    background: var(--card); border: 1px solid var(--hairline);
+    border-radius: 12px; padding: .9rem 1.1rem; margin-top: 2.5rem;
+    font-size: .94rem;
+  }
+  .note p { margin: 0; }
+
+  footer {
+    margin-top: 3rem; padding-top: 1.25rem;
+    border-top: 1px solid var(--hairline);
+    font-size: .88rem; color: var(--muted);
+  }
+  a { color: var(--accent); }
+  footer a { text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
+<div class="wrap">
+
   <h1>LiveManager</h1>
   <p class="tagline">Browse, rate and audition your Ableton Live project library — with an iPhone companion for listening on the go.</p>
 
-  <a class="download" href="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager-1.2.zip">Download for macOS</a>
-  <p class="meta">Requires macOS 15 or later. Universal (Apple silicon and Intel).</p>
+  <div class="get">
+    <a class="download" id="download" href="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager-latest.zip">Download for macOS</a>
+    <span class="release" id="release"></span>
+  </div>
+  <p class="requirements">Requires macOS 15 or later. Universal — Apple silicon and Intel.</p>
 
   <h2>Installing</h2>
-  <ul>
+  <ol>
     <li>Unzip and drag <strong>LiveManager</strong> to your Applications folder.</li>
-    <li>On first launch, choose the folder where your Ableton projects live. LiveManager reads your sets — it never modifies them.</li>
-  </ul>
+    <li>On first launch, choose the folder where your Ableton projects live.</li>
+  </ol>
+  <p class="requirements">LiveManager reads your sets to catalogue them — it never modifies your projects.</p>
 
-  <h2>Updates</h2>
-  <p>Once installed, LiveManager checks for updates on its own and can install them in one click. You only need this page for the first install.</p>
+  <h2>On your phone</h2>
+  <p>Your library syncs through your own private iCloud, so ratings, notes and loop points follow you between the Mac app and the iPhone companion. Grab the iPhone app from <strong>Help → Get the iPhone App…</strong> inside LiveManager.</p>
+
+  <div class="note">
+    <p><strong>Updates are automatic.</strong> Once installed, LiveManager checks for new versions on its own and can install them in one click — you only need this page for the first install.</p>
+  </div>
 
   <footer>
-    <a href="https://github.com/mitchellhart/livemanager-releases/releases">All versions</a>
+    <a href="https://github.com/mitchellhart/livemanager-releases/releases">All versions and release notes</a>
   </footer>
+
+</div>
+
+<script>
+  // The only two URLs to change if hosting moves. FEED must match SUFeedURL
+  // baked into the shipped app — see the comment in project.yml.
+  var FEED = "https://mitchellhart.github.io/livemanager-releases/appcast.xml";
+  var LATEST = "https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager-latest.zip";
+
+  document.getElementById("download").href = LATEST;
+
+  // Progressive enhancement: name the current version if the feed is
+  // reachable. The page is fully usable if this fails.
+  fetch(FEED, { cache: "no-cache" })
+    .then(function (r) { return r.ok ? r.text() : Promise.reject(); })
+    .then(function (xml) {
+      var doc = new DOMParser().parseFromString(xml, "application/xml");
+      var items = Array.prototype.slice.call(doc.getElementsByTagName("item"));
+      if (!items.length) return;
+
+      // Feed order isn't guaranteed; pick the highest build number.
+      var build = function (item) {
+        var el = item.getElementsByTagName("sparkle:version")[0];
+        return el ? parseInt(el.textContent, 10) || 0 : 0;
+      };
+      items.sort(function (a, b) { return build(b) - build(a); });
+
+      var newest = items[0];
+      var shortEl = newest.getElementsByTagName("sparkle:shortVersionString")[0];
+      var dateEl = newest.getElementsByTagName("pubDate")[0];
+      if (!shortEl) return;
+
+      var text = "Version " + shortEl.textContent.trim();
+      if (dateEl) {
+        var when = new Date(dateEl.textContent);
+        if (!isNaN(when)) {
+          text += " — " + when.toLocaleDateString(undefined, {
+            year: "numeric", month: "long", day: "numeric"
+          });
+        }
+      }
+      document.getElementById("release").textContent = text;
+    })
+    .catch(function () { /* leave the version line empty */ });
+</script>
 </body>
 </html>
