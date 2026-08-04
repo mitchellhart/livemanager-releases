@@ -3,6 +3,49 @@
     <channel>
         <title>LiveManager</title>
         <item>
+            <title>1.5</title>
+            <pubDate>Mon, 03 Aug 2026 23:21:10 -0700</pubDate>
+            <sparkle:version>2608032320</sparkle:version>
+            <sparkle:shortVersionString>1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>LiveManager 1.5</h2>
+
+<p>Switching looping off now sticks.</p>
+
+<h3>Fixed</h3>
+<ul>
+  <li><strong>Looping stays off.</strong> Turning the loop off and moving to
+      another demo used to bring the brackets straight back, and any demo you'd
+      ever pressed ⌘L on would re-loop itself every time it played. Off now
+      means off — on that demo, on the next one, and after a relaunch.</li>
+  <li>The loop button still remembers where you left the brackets, so switching
+      looping back on picks up the section you were working on rather than
+      starting from the ends of the demo.</li>
+</ul>
+
+<p>One-time note: the first time you open 1.5, every demo starts unlooped. Your
+bracket positions are all still saved — one press of ⌘L on a demo brings its
+section back.</p>
+
+<h3>Also since 1.3</h3>
+<ul>
+  <li><strong>Logic Pro support.</strong> Logic projects appear as songs
+      alongside your Ableton sets, with tempo, time signature, track count and
+      alternatives listed as versions.</li>
+  <li><strong>Volume slider</strong> in the player bar, remembered between
+      launches.</li>
+  <li>A repeated project file could crash the app on launch; LiveManager now
+      repairs the duplicate instead of stopping.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager-1.5.zip" length="4413040" type="application/octet-stream" sparkle:edSignature="PJAo760jWEFSfI18KfhS0nEgF341MacoNBry2aP/Hs+r0Dpi776Zwxy5z4g8sb0CWTznI42wKCSuEieA8+YOAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager2608032320-2608031649.delta" sparkle:deltaFrom="2608031649" length="119434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PI/Tg0cPLCsrWl1VOqckYrTUkO/ojyotxhP0aYqch0I+LD8pkImzOnLdpMd/r3WucJs6jIKYauypm6WzOi+XCA=="/>
+                <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager2608032320-2608011606.delta" sparkle:deltaFrom="2608011606" length="214274" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J+Ejy1/u3f+VjGyrRDyYeSbPrUTTsIMZsNc3Py37R1p3gtxRQOhfKlL8xTjbSoQT3z4sPSaCt2V5f4R+4SdeBA=="/>
+                <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager2608032320-2608011601.delta" sparkle:deltaFrom="2608011601" length="218462" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fPK8b06XJVNYlBjmmy3wCQ4er+GwYkM5gfDwqdbs6pH5EgGxQMt6zaJA7TE9ZxIZmO5pu2WAI4G+kHfTOTUoCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.4</title>
             <pubDate>Mon, 03 Aug 2026 16:50:32 -0700</pubDate>
             <sparkle:version>2608031649</sparkle:version>
