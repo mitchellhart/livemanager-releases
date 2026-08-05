@@ -3,6 +3,30 @@
     <channel>
         <title>LiveManager</title>
         <item>
+            <title>1.6</title>
+            <pubDate>Tue, 04 Aug 2026 23:37:18 -0700</pubDate>
+            <sparkle:version>2608042336</sparkle:version>
+            <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>LiveManager 1.6</h2>
+
+<ul>
+  <li><strong>The song list stays put.</strong> Scrolling down and double-clicking
+      a song could make the list jump and play a different song than the one you
+      clicked. It now plays what's under the cursor.</li>
+  <li>Design refinements throughout, including album names shown as tinted
+      pills.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager-1.6.zip" length="4403584" type="application/octet-stream" sparkle:edSignature="NE5YpvFAnyYhwc/cKSKCGcrftQCIiOVVBt/n7BfmMKWKrD671wwlpbVvz73TZIWPDUu8COStM1GZOfzXETKoCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager2608042336-2608032320.delta" sparkle:deltaFrom="2608032320" length="157538" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8XiCi20OKe/PusUHO3ZtS01/Pp8or8DcpUwyDFv8jF8VboI62VF5zz7K21As8eAtS2FOnDIbqGky2TYAPsyqDQ=="/>
+                <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager2608042336-2608031649.delta" sparkle:deltaFrom="2608031649" length="175554" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EWF3zSsqYM96GAh9yHK6hteNWqEQXnRVvuILEuI1rEdhKUX8ZFvtPcN7ZmMnMkhaNvBQ2w+TvwFVI47G13dVCQ=="/>
+                <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager2608042336-2608011606.delta" sparkle:deltaFrom="2608011606" length="252278" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/by2vwtK3MFzgTSySntu1WjZIJ5huZ7FvF6eDJPe1Uf1c9uL06JVuvcyiTDtGv0C8BuJHgzO2OJaTGKbuXTnBg=="/>
+                <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager2608042336-2608011601.delta" sparkle:deltaFrom="2608011601" length="254822" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Cypc/PVcWaMdemPtXkDejuFM87lusl7QAUuKnpLXJOXmIe3Nrg2RqGWitzuFIb7lEK9Fuyc953YxBzjYA5X0DQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.5</title>
             <pubDate>Mon, 03 Aug 2026 23:21:10 -0700</pubDate>
             <sparkle:version>2608032320</sparkle:version>
