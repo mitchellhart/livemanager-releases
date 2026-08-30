@@ -3,6 +3,42 @@
     <channel>
         <title>LiveManager</title>
         <item>
+            <title>1.7</title>
+            <pubDate>Sun, 30 Aug 2026 12:39:04 -0700</pubDate>
+            <sparkle:version>2608301237</sparkle:version>
+            <sparkle:shortVersionString>1.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>LiveManager 1.7</h2>
+
+<p>Ideas that start on your phone now have somewhere to go.</p>
+
+<ul>
+  <li><strong>Capture ideas on your phone.</strong> Share a voice memo or a video
+      of yourself playing into LiveManager on iPhone, or tap + to pick a video
+      from Photos. It becomes a real song — playable, ratable, filed into an
+      album — and syncs here with no Ableton project behind it.</li>
+  <li><strong>Watch the original.</strong> A capture from a video keeps a link
+      back to the clip in your photo library, so you can go and see what your
+      hands were doing.</li>
+  <li><strong>Turn an idea into a project.</strong> Start the project in Live as
+      you normally would, then select the idea and the new song and choose
+      <em>Merge Into</em>. The recording is filed into the project folder, where
+      Live picks it up under Places → Current Project.</li>
+  <li>Captures play from the Mac player like any other demo, with their waveform
+      and next/back stepping.</li>
+  <li>Renaming a song now works on the iPhone too — tap its name.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager-1.7.zip" length="4476855" type="application/octet-stream" sparkle:edSignature="svkxoh5nNZO7+U0njvdyyO4Q1vOEHi9GdloTLHc7lh0XHl8noCp0th+x3oXBHs/mXjgP7oJvhC48tzXA8LoOAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager2608301237-2608042336.delta" sparkle:deltaFrom="2608042336" length="306386" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Jr+I4N7T/WwR6W6f2UbuxYVNxW1mKKeSUV29F++B/hoOjqD+RhobD17NRnQ7GEVExKD88DIq95qzCqnrLFYADw=="/>
+                <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager2608301237-2608032320.delta" sparkle:deltaFrom="2608032320" length="318230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rtt+RHAV3HG0z2VaHT2pgapKQGaFjJ3wFemuNoFowunSVu1COjuat2n0hkxSJ35O0PpSJYly1BpSigil2f46Dw=="/>
+                <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager2608301237-2608031649.delta" sparkle:deltaFrom="2608031649" length="325278" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c52QKm148WSp6cPsHrd4vkPsto5qTQD2mrH71FCwhJ5oYKXSwHP9UZta0DyVyk7n0EfTNsGJYDOcbL5fN7WPCQ=="/>
+                <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager2608301237-2608011606.delta" sparkle:deltaFrom="2608011606" length="385238" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="11zLoxPXpoXjhio82t00Zo+jAJfDe8dqzPhR3RBwdmwbsqX9pqlpCrFMIB+pttgTMaCzoQVccniqbmGIaCxuDQ=="/>
+                <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager2608301237-2608011601.delta" sparkle:deltaFrom="2608011601" length="387930" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZWOJ2UF3bI+dortdJ6DDp2cSNWAzicSIZkdPcwPoh0YDHpc+P6AJBaqnT4NogjnhTCt0ItYDsfzH2Uy67GJ/DQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.6</title>
             <pubDate>Tue, 04 Aug 2026 23:37:18 -0700</pubDate>
             <sparkle:version>2608042336</sparkle:version>
