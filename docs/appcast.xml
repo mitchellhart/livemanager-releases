@@ -3,6 +3,31 @@
     <channel>
         <title>LiveManager</title>
         <item>
+            <title>1.9</title>
+            <pubDate>Wed, 18 Nov 2026 09:03:31 -0800</pubDate>
+            <sparkle:version>2611180901</sparkle:version>
+            <sparkle:shortVersionString>1.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>LiveManager 1.9</h2>
+
+<p>Identify guitar notes and chords, and share demos from your Mac.</p>
+
+<ul>
+  <li><strong>Experimental Chord Detector.</strong> Open Tools → Chord Detector to listen to your guitar through the microphone, check individual notes and tuning, and estimate common chords. Audio is analyzed locally and is never saved or uploaded.</li>
+  <li><strong>Share demos.</strong> Share an audio demo from the song details using the macOS share sheet. LiveManager places a copy in the LiveManager Shares folder in iCloud Drive.</li>
+  <li>Duplicate synced entries now appear only once in song lists and sidebar counts.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager-1.9.zip" length="4667717" type="application/octet-stream" sparkle:edSignature="DlKGEdKlIvVR1oQw2klfUBkfnJx6qhqsm/EUZNmbtZxMOEiQzRl6Y1UZn9LHV0ng9fXQzStzvGbcISrOQLCKAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager2611180901-2610181712.delta" sparkle:deltaFrom="2610181712" length="353822" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1zQAunAmxi2iHM93yUO9imOJ6yurIECDM/FQTi1iN35ZLclracTHWGQZ0nxNueCWaZRgYs/K1caMHAPIQSGhDA=="/>
+                <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager2611180901-2608301237.delta" sparkle:deltaFrom="2608301237" length="2002990" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CNHB6ZvZEB8sDxWU7XRnSaXl++3gB8U5n7sfhYN2HFp2Ab9fIOMJAGPuycxI4T+WteogPlW7fCWTGAP6Sp+TCw=="/>
+                <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager2611180901-2608042336.delta" sparkle:deltaFrom="2608042336" length="2046186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qxGm1hQZZfVvVvL8Vm9gb1QqGbzyMqhJ7i7oGcEI6ZxPmjl66bqSntkGem3s2ZzPuadJBYbdXyULshVzHHYmBQ=="/>
+                <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager2611180901-2608032320.delta" sparkle:deltaFrom="2608032320" length="2049810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QDetsS6hMcqVXNoVPKn+H+pZyocQMvPeD+rY5vLgMpDlGDD2yuV2VEndjmakFiDawgQc4vj9++mhzgYdaOYcCQ=="/>
+                <enclosure url="https://github.com/mitchellhart/livemanager-releases/releases/download/updates/LiveManager2611180901-2608031649.delta" sparkle:deltaFrom="2608031649" length="2053586" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5UG/K+LeSwfzyo/5VZEdHZBS5CgVfDMmyu1Qc3bLzOxDiqNoEivVNKFIQYsj35qR+v8KiS63jLJnUDbtR4kCDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.8</title>
             <pubDate>Sun, 18 Oct 2026 17:14:12 -0700</pubDate>
             <sparkle:version>2610181712</sparkle:version>
